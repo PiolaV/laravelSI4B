@@ -12,6 +12,7 @@
           Add class <code>.table</code>
           list data Prodi
         </p>
+        <a href="{{route('prodi.create')}}" class="btn btn-rounded btn-primary">Tambah Program Studi</a>
         <div class="table-responsive">
           <table class="table">
             <thead>
