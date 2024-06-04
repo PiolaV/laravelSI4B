@@ -18,15 +18,13 @@ return new class extends Migration
             $table->string('tempat_lahir',45);
             $table->date('tanggal_lahir');
             $table->string('alamat');
-            //$table->foreignId('prodi_id')->constrained(); // relasi ke kolom id pada tabel prodis
+            $table->foreignId('prodi_id')->constrained(); // relasi ke kolom id pada tabel prodis
           
-            $table->unsignedInteger('prodi_id');
-            $table->foreign('prodi-id')->references('id')->on('prodis');
+            // $table->unsignedInteger('prodi_id');
+            // $table->foreign('prodi-id')->references('id')->on('prodis');
             $table->string('url_foto');
             $table->timestamps();
-            
-
-        });
+            });
     }
 
     /**
