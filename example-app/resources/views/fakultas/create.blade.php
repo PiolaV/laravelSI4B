@@ -5,7 +5,7 @@
 @section('content')
 <div class="row">
     {{-- formulir tambah fakultas --}}
-    <div class="col-md-6 grid-margin stretch-card">
+    <div class="col-md-12 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Tambah Fakultas</h4>
